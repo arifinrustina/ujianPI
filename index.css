@@ -1,0 +1,35 @@
+body{	
+	background-image: url(../bg/back.jpg);
+	background-position:;
+}
+
+
+nav {
+  position: relative;
+  width: 100%;
+  display: block;
+  float: left; 
+  background: #E06A38; /*warna menu atas*/
+  z-index: 99999;
+}
+nav li {
+  float: left;
+  text-transform: uppercase;
+  position: relative;
+}
+nav li.menu-item a {
+	float: right;
+  font-size: 15px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+  padding: 12px 14px;
+  border-right: 1px solid #000000;
+  border-radius: 0;
+}
+nav li.menu-item a:hover,
+nav li.active a {
+  background: red;
+  color: #FEFEFE;
+}
+
